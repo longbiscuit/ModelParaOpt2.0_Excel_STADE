@@ -2,8 +2,8 @@
 EB, MC, MCC and CSUH model parameters were determined by non-inversion or inversion methods in Excel software.
 
 relevant papers：
-
 [1]Zhu B, Chen Z. Calibrating and validating a soil constitutive model through conventional triaxial tests: an in-depth study on CSUH model[J]. Acta Geotechnica, 2022: 1-14.
+
 [2]Binglong Z, Xiaoxue S, Yuqing C, et al. Determining parameters of the CSUH constitutive model by genetic algorithm[J]. Japanese Geotechnical Society Special Publication, 2020, 8(6): 188-193.
 # 简介
 针对把耦合优化算法搭建在Excel平台上时存在反演速度过慢的问题，提出了分段调整模型迭代增量步长的动态迭代方法，实现了模型参数在广泛使用的通用软件Excel上的快速反演计算，对本构模型参数的优化确定提供了极大的便利。Excel通用软件平台操作简便且应用广泛，但其内嵌的编程语言计算速度较慢，加之反演参数过程需要大量的本构模型数值计算增量式的迭代计算，耗时太长。动态迭代方法将整个轴向应变按应力应变曲线斜率分为两段，曲线斜率较大段的轴向应变增量在迭代时呈步长较小的等差数列分布，而曲线斜率较小段的轴向应变增量在迭代时呈步长较大的均匀数列分布。动态迭代方法在保证预测精度的前提下极大的减少了模型迭代次数，使本构模型参数的反演在基于Excel的优化反演分析软件上实现成为可能。模型参数优化反演分析软件包含了粘土和砂土的统一硬化模型（CSUH, Unified hardening model for clays and sands）、修正剑桥模型（MCC, Modified Cam-clay model）、莫尔-库伦模型（MC, Mohr-Coulomb model）和邓肯-张模型（EB, Duncan-Chang model）几种典型本构模型参数的非反演确定方法和反演确定方法，非反演方法确定的模型参数也可以作为反演方法确定参数时的初始值以提高反演精度和速度。
