@@ -2,6 +2,7 @@
 EB, MC, MCC and CSUH model parameters were determined by non-inversion or inversion methods in Excel software.
 
 relevant papers：
+
 [1]Zhu B, Chen Z. Calibrating and validating a soil constitutive model through conventional triaxial tests: an in-depth study on CSUH model[J]. Acta Geotechnica, 2022: 1-14.
 
 [2]Binglong Z, Xiaoxue S, Yuqing C, et al. Determining parameters of the CSUH constitutive model by genetic algorithm[J]. Japanese Geotechnical Society Special Publication, 2020, 8(6): 188-193.
