@@ -63,6 +63,11 @@ relevant papers：
 ![28a4c8487c28059090163ce3f3dad5a](https://user-images.githubusercontent.com/21994802/187614889-3b67ce2c-0fb0-4ad6-a319-3a0ff6fe256e.jpg)
 代码模块（更具体的请看Excel的vba代码）
 
+
+ ![561403126de2ba55a67757b6ce2a59f](https://github.com/longbiscuit/ModelParaOpt2.0_Excel_STADE/assets/21994802/e32ebd3c-335f-4210-abbb-6bb315199ae9)
+
+若要添加新模型，可以在代码界面，搜索 添加新模型 ，选择当前工程。
+
 # 环境
 ## 运行环境:
 '系统环境:
