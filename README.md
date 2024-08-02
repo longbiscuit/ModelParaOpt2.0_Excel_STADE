@@ -85,6 +85,11 @@ relevant papers：
 
 在Excel和WPS中都可以运行。
 
+#视频教程
+链接：https://pan.baidu.com/s/1OqAoiKjE5VyF_LDPHKDhUg?pwd=nhsb 
+提取码：nhsb 
+
+
 # 注意事项
 ## 在C盘或桌面无法运行的问题
 注意，如果将此excel放在桌面或C盘任何地方执行，可能由于没有C盘读写权限而发生错误：
